@@ -1,0 +1,163 @@
+body{
+  margin: 0;
+  padding: 0%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+}
+a{
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+/*
+.formato_def {
+  border: black solid;
+  margin: 1%;
+  padding: 1%;
+  text-align: center;
+}*/
+
+header {
+  width: 100%;
+  height: 60px;
+ /* margin: 1%;
+  padding: 1%;
+  text-align: center;*/
+}
+
+header nav  {
+  display: flex;
+  justify-content: flex-start;
+}
+
+
+header nav .nav-menu  {
+  width: 800;
+  height: auto;
+  display: flex;
+  justify-content:flex-start ;
+  list-style: none;
+  align-items: center;
+ background: rgba(0,0,0,0.9);
+  width: 100%;
+   position: fixed;
+ /* z-index: 100;*/
+
+}
+/*
+
+main div .nav-dias  {
+  width: 250;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  align-items: center;
+}*/
+
+
+
+.nav-menu a{
+  margin-left: 15px;
+  color: whitesmoke;
+  font-size: 15px
+}
+
+
+
+
+article {
+  border: black solid;
+  margin: 1%;
+  padding: 1%;
+  text-align: center;
+}
+
+
+.container {
+  border: solid 1px rgba(255, 255, 255, 0.2);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(#b8b7b6, #b4ab84);
+}
+
+table {
+  color: #423333;
+  font-size: 14px;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+
+thead {
+  background: rgba(66, 38, 57, 0.4);
+}
+
+  
+th {
+  padding: 20px 15px ;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+td {
+  padding: 15px;
+  border-bottom: solid 1px rgba(255, 255, 255, 0.2);
+}
+
+
+tbody tr {
+  cursor: pointer;
+}
+
+tbody tr:hover {
+  background: rgba(243, 103, 199, 0.4);
+}
+
+
+.social-footer {
+  padding: 1rem;
+  background: #8a8a8a;
+display: flex;
+justify-content: center;
+list-style: none;
+align-items: center;
+
+
+          
+}
+
+
+.social-footer .social-footer-icons .fa {
+  font-size: 2.3rem;
+  color: #fefefe;
+}
+
+.social-footer .social-footer-icons .fa:hover {
+  color: #4a4a4a;
+  transition: color 0.3s ease-in;
+}
+
+.menusimple  {
+  color: #423333;
+  font-size: 25px;
+  display:inline;
+ 
+  transition: color 0.3s ease-in;
+}
+
+
+.menusimple li {
+  display:inline;
+  padding-left:3px;
+  padding-right:3px;
+
+}
+
